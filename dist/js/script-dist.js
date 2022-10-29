@@ -1,0 +1,2 @@
+$((function(){$("#phone").mask("+7(999) 999 9999")})),$((function(){$("#phone-modal").mask("+7(999) 999 9999")})),$(document).ready((function(){$(".slider").slick({arrows:!1,dots:!0,slidesToShow:1,slidesToScroll:1,speed:1e3,easing:"ease-in"})}));
+//# sourceMappingURL=script-dist.js.map

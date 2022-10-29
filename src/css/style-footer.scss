@@ -1,0 +1,52 @@
+.footer {
+	margin-top: 9rem;
+	background: $dark-blue;
+	h1 {
+		color: $white;
+		margin-top: 4.625rem;
+	}
+	.big-text {
+		font-size: 3rem;
+		font-weight: 700;
+		color: $blue;
+		transition: all .6s ease;
+		&:hover {
+			color :$white;
+		}
+	}
+	hr {
+		color: $blue;
+	}
+	.text {
+		color: $white;
+		font-size: 1.25rem;
+		font-weight: 700;
+	}
+	.btn-circle {
+		font-size: 1.25rem;
+		padding: 0.5rem;
+		border-radius: 50%;
+		background: $white;
+		transition: all .6s ease;
+		&:hover {
+			color: $white;
+			background: $blue;
+		}
+	}
+	h4 {
+		color: $white;
+		font-weight: 800;
+		span {
+			color: $blue;
+			font-size: 4rem;
+		}
+	}
+	.copy {
+		font-size: 0.875rem;
+		color: $white;
+		a {
+			color: $white;
+			text-decoration: underline;
+		}
+	}
+}

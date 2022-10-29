@@ -1,0 +1,83 @@
+.modal-dialog {
+    max-width: 47.875rem;
+    }
+.modal-footer {
+    border: none;
+}
+.modal-content {
+    border-radius: 0.625rem;
+    border: none;
+    }
+.modal-header {
+    border: none;
+    }
+.icon-lock {
+            font-size: 1rem;
+        }
+h5 {
+        padding-left: 9rem;
+    }
+#modal-phone {
+    .modal-footer {
+        button {
+            background: url('../../img/modal-phone/magazine-mockup.png') no-repeat center center;
+            background-color: $violet;
+            border: none;
+        }
+        .btn {
+            padding: 3rem 6rem;
+            border-radius: 0.625rem;
+        }
+        .badge {
+            padding: 0.65rem;
+            background: $lite-grey;
+            border: 0.375rem solid $white
+        }
+    }
+    .order {
+        label {
+            color: $grey;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+    .conf {
+        label {
+            font-size: 0.5625rem;
+            color: $grey-violet;
+            font-weight: 500;
+        }
+    }
+}
+
+#modal-success {
+        button {
+            background: url('../../img/modal-phone/magazine-mockup-big.png') no-repeat center center;
+            background-color: $violet;
+            border: none;
+        }
+        .btn {
+            padding: 5rem 10rem;
+            border-radius: 0.625rem;
+        }
+        .icon-lock {
+            font-size: 1rem;
+        }
+        .badge {
+            padding: 0.65rem;
+            background: $green;
+            border: 0.375rem solid $white
+        }
+        .modal-body {
+            h5 {
+                padding: 0;
+                color: $blue;
+            }
+            a {
+                text-decoration: underline;
+            }
+        }
+        .icon-success {
+            font-size: 1.5rem;
+        }
+}
